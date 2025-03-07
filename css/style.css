@@ -18,6 +18,7 @@ header {
 .logo img {
   width: 120px;
   height: auto;
+  margin-top: -20px;
 }
 
 nav ul {
@@ -25,6 +26,7 @@ nav ul {
   display: flex;
   gap: 20px;
   padding: 0;
+  font-size: 20px;
 }
 
 nav ul li {
@@ -352,7 +354,7 @@ nav ul li a:hover {
   font-weight: bold;
   color: #000;
   margin-bottom: 10px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .hlmd-content p {
@@ -511,9 +513,16 @@ footer {
 .contact-icons {
   position: fixed;
   right: 20px;
-  bottom: 100px;
+  bottom: 120px;
 }
 
+.contac-phone {
+  width: 40px;
+  position: fixed;
+  right: 30px;
+  bottom: 60px;
+  background-color: transparent;
+}
 /* reponsive */
 
 @media (max-width: 1200px) {
@@ -601,7 +610,7 @@ footer {
 
   .hlmd-content h2 {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .footer-contact p {
